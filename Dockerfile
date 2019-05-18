@@ -1,3 +1,3 @@
 FROM ubuntu:18.04
-RUN sudo apt-get update && sudo apt-get install axel
+RUN apt-get update && apt-get install axel
 CMD ["axel"]
